@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 @ApiModel(description = "Details about the user model")
-//@JsonFilter("passwordfilter")
+@JsonFilter("passwordfilter")
 public class User {
 	
 	@ApiModelProperty(notes = "The unique id of the user")
